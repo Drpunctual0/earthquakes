@@ -5,7 +5,6 @@ from plotly import offline
 
 # Verinin yapısını incele
 
-# filename = 'data2/eq_data_1_day_m1.json'
 filename = 'data2/eq_data_30_day_m1.json'
 
 with open(filename) as f:
@@ -13,7 +12,6 @@ with open(filename) as f:
 
 
 all_eq_dicts = all_eq_data['features']
-# print(len(all_eq_dicts))
 
 # Büyüklük / konum seçip almak
 
